@@ -21,7 +21,7 @@ export default function ContactForm() {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     try {
-      const response = await fetch("https://formspree.io/f/mrblejpz", {
+      const response = await fetch("https://formspree.io/f/xyzpkrkk", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
